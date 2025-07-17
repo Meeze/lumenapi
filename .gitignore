@@ -1,0 +1,36 @@
+# Composer dependencies
+/vendor/
+
+# Lumen environment
+.env
+.env.*
+
+# Laravel/Lumen cache
+/storage/*.key
+/storage/*.log
+/storage/debugbar/
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# IDE / OS
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Node (if frontend tools used)
+node_modules/
+public/hot
+public/storage
+npm-debug.log
+yarn-error.log
+
+# Coverage
+coverage/
