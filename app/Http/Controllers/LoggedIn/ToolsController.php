@@ -8,6 +8,6 @@ class ToolsController extends BaseController
 {
     public function index()
     {
-        return view('welcome');
+        return view('tools');
     }
 }
